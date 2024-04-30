@@ -1,0 +1,5 @@
+[test-server]
+54.227.84.25 ansible_ssh_private_key_file=/etc/ansible/Project_test.pem ansible_user=ubuntu
+
+[test-server1]
+44.201.152.153 ansible_ssh_private_key_file=/etc/ansible/Ansible_test.pem ansible_user=ubuntu
