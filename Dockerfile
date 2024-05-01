@@ -14,7 +14,7 @@ RUN npm install express
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 5000
 
 # Specify the command to run your app (assuming your entry point is app.js)
 CMD ["node", "app.js"]
